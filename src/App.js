@@ -30,9 +30,7 @@ const options = [
   value:'work on my credit',label:'work on my credit',
     }
 ]
-const MyComponent = () => (
-  <Select options={options} />
-)
+
 
 const theme = createTheme({
   palette: {
