@@ -1,0 +1,126 @@
+
+ 
+  body {
+    margin: 0;
+    
+  }
+  .background{
+    background-color:#1A272D ;
+    height:100vh;
+    width:100%;
+  }
+  .text-img2 {
+    position: absolute;
+    top: 180px;
+    left: 70px;
+    color: rgb(23, 34, 39);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .emp{
+    position: absolute;
+    top: 270px;
+    left: 70px;
+    text-align: left;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#409c9c;
+
+  }
+  #nav a {
+    
+    float: center;
+    margin-right: 30px;
+    display:block;
+    color: #638D87;
+    
+    text-align: right;
+    width: 90px;
+    text-decoration: none;
+    font-size: 25px;
+    }
+  .box{
+    position: absolute;
+    top: 540px;
+    height:60px;
+    width:100%;
+    background-color:rgb(99, 147, 149);
+
+  }
+  .wwal{
+    position: absolute;
+    text-align: left;
+    font-size: 18px;
+    top: 290px;
+    left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#b2c1c7;
+  }
+  .wwac{
+    margin-top:20px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#409c9c;
+  }
+  .wwam{
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#77848a;
+  }
+  .columnb {
+    float: left;
+    width: 30%;
+    padding: 15px;
+    text-align: center;
+   }
+    .rowb {
+        float:center;
+        margin: 10px 140px;
+    }
+    .rowb:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .whitecardb {
+        box-shadow: 5px 5px 5px 0 rgba(142, 165, 230, 0.1),
+        -5px 5px 5px 0 rgba(142, 165, 230, 0.1);
+        text-align: center;
+        background: #ffffff;
+        padding: 20px;
+        transition: 0.3s;
+        height:270px;
+        width:280px;
+        border-radius: 20px;
+        
+    }
+    .whitecardb:hover{
+        transition: all 0.2s ease-out;
+        box-shadow: 0px 3px 6px rgba(21, 56, 77, 0.2);
+        top: -2px;
+        border: 1px solid #9ae2e4;
+        background-color: white;
+    }
+    .whitecardb:before {
+        content: "";
+        position: relative;
+        z-index: -1;
+        top: -16px;
+        right: -16px;
+        background: #9ae2e4;
+        height: 25px;
+        width: 28px;
+        border-radius: 32px;
+        transform: scale(2);
+        transform-origin: 50% 50%;
+        transition: transform 0.15s ease-out;
+      }
+    
+      .whitecardb:hover:before {
+        transform: scale(2);
+      }
+      
+ 
+ 
